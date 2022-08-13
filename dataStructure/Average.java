@@ -8,7 +8,6 @@ public class Average {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		//점수 입력할 배열 선언 후 배열에 점수 넣기
-		//배열의 크기는 N의 크기만큼
 		int A[] = new int[N];
 		for (int i = 0; i < N; i++) {
 			A[i] = sc.nextInt();
