@@ -41,6 +41,7 @@ class mData implements Comparable<mData> {
 	@Override
 	public int compareTo(mData o) {		//value 기준 오름차순 정렬하기 > 매개변수(mData)와의 비교
 		return this.value - o.value;
+		//같으면 return 0, this가 크면 return 1, this가 작으면 return -1
 	}
 	
 }
